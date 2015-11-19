@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB23EA961BFD37F5007BA99C /* GradientViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23EA951BFD37F5007BA99C /* GradientViewTwo.swift */; };
+		AB23EA981BFD53ED007BA99C /* GradientViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23EA971BFD53ED007BA99C /* GradientViewThree.swift */; };
+		AB23EABF1BFD7CCB007BA99C /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23EABE1BFD7CCB007BA99C /* ExerciseViewController.swift */; };
+		AB5540CE1BF6C4FB00A9FF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5540CD1BF6C4FB00A9FF97 /* AppDelegate.swift */; };
+		AB5540D01BF6C4FB00A9FF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5540CF1BF6C4FB00A9FF97 /* ViewController.swift */; };
+		AB5540D31BF6C4FB00A9FF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5540D11BF6C4FB00A9FF97 /* Main.storyboard */; };
+		AB5540D61BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB5540D41BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld */; };
+		AB5540D81BF6C4FB00A9FF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5540D71BF6C4FB00A9FF97 /* Assets.xcassets */; };
+		AB5540DB1BF6C4FB00A9FF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5540D91BF6C4FB00A9FF97 /* LaunchScreen.storyboard */; };
+		ABFC44DB1BF6C609003405B1 /* GradientViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC44DA1BF6C609003405B1 /* GradientViewOne.swift */; };
+		ABFC44E31BF6C68F003405B1 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E01BF6C68F003405B1 /* Roboto-Light.ttf */; };
+		ABFC44E41BF6C68F003405B1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E11BF6C68F003405B1 /* Roboto-Medium.ttf */; };
+		ABFC44E51BF6C68F003405B1 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E21BF6C68F003405B1 /* Roboto-Thin.ttf */; };
+		ABFC44EA1BF6C6A9003405B1 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E61BF6C6A9003405B1 /* Raleway-ExtraLight.ttf */; };
+		ABFC44EB1BF6C6A9003405B1 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E71BF6C6A9003405B1 /* Raleway-Light.ttf */; };
+		ABFC44EC1BF6C6A9003405B1 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E81BF6C6A9003405B1 /* Raleway-Regular.ttf */; };
+		ABFC44ED1BF6C6A9003405B1 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E91BF6C6A9003405B1 /* Raleway-Thin.ttf */; };
+		ABFC44EF1BF6C932003405B1 /* BreatheCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC44EE1BF6C932003405B1 /* BreatheCell.swift */; };
+		ABFC44F31BF6D9E0003405B1 /* BreathingExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC44F21BF6D9E0003405B1 /* BreathingExercises.swift */; };
+		ABFC44F51BF6DA06003405B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC44F41BF6DA06003405B1 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB23EA951BFD37F5007BA99C /* GradientViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewTwo.swift; sourceTree = "<group>"; };
+		AB23EA971BFD53ED007BA99C /* GradientViewThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewThree.swift; sourceTree = "<group>"; };
+		AB23EABE1BFD7CCB007BA99C /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		AB5540CA1BF6C4FB00A9FF97 /* BREATHEv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BREATHEv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5540CD1BF6C4FB00A9FF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB5540CF1BF6C4FB00A9FF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB5540D21BF6C4FB00A9FF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB5540D51BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BREATHEv2.xcdatamodel; sourceTree = "<group>"; };
+		AB5540D71BF6C4FB00A9FF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5540DA1BF6C4FB00A9FF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB5540DC1BF6C4FB00A9FF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFC44DA1BF6C609003405B1 /* GradientViewOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewOne.swift; sourceTree = "<group>"; };
+		ABFC44E01BF6C68F003405B1 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		ABFC44E11BF6C68F003405B1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		ABFC44E21BF6C68F003405B1 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		ABFC44E61BF6C6A9003405B1 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ABFC44E71BF6C6A9003405B1 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		ABFC44E81BF6C6A9003405B1 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		ABFC44E91BF6C6A9003405B1 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		ABFC44EE1BF6C932003405B1 /* BreatheCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreatheCell.swift; sourceTree = "<group>"; };
+		ABFC44F21BF6D9E0003405B1 /* BreathingExercises.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreathingExercises.swift; sourceTree = "<group>"; };
+		ABFC44F41BF6DA06003405B1 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5540C71BF6C4FB00A9FF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5540C11BF6C4FB00A9FF97 = {
+			isa = PBXGroup;
+			children = (
+				AB5540CC1BF6C4FB00A9FF97 /* BREATHEv2 */,
+				AB5540CB1BF6C4FB00A9FF97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5540CB1BF6C4FB00A9FF97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5540CA1BF6C4FB00A9FF97 /* BREATHEv2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5540CC1BF6C4FB00A9FF97 /* BREATHEv2 */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC44DC1BF6C639003405B1 /* Model */,
+				ABFC44DD1BF6C63D003405B1 /* View */,
+				ABFC44DE1BF6C641003405B1 /* Controller */,
+				ABFC44DF1BF6C659003405B1 /* Resources */,
+				AB5540D71BF6C4FB00A9FF97 /* Assets.xcassets */,
+				AB5540CD1BF6C4FB00A9FF97 /* AppDelegate.swift */,
+				AB5540DC1BF6C4FB00A9FF97 /* Info.plist */,
+				AB5540D41BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld */,
+			);
+			path = BREATHEv2;
+			sourceTree = "<group>";
+		};
+		ABFC44DC1BF6C639003405B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC44F61BF6E6AB003405B1 /* Gradient */,
+				ABFC44F21BF6D9E0003405B1 /* BreathingExercises.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ABFC44DD1BF6C63D003405B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB5540D91BF6C4FB00A9FF97 /* LaunchScreen.storyboard */,
+				AB5540D11BF6C4FB00A9FF97 /* Main.storyboard */,
+				ABFC44EE1BF6C932003405B1 /* BreatheCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ABFC44DE1BF6C641003405B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB23EABE1BFD7CCB007BA99C /* ExerciseViewController.swift */,
+				ABFC44F41BF6DA06003405B1 /* DetailViewController.swift */,
+				AB5540CF1BF6C4FB00A9FF97 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ABFC44DF1BF6C659003405B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC44E61BF6C6A9003405B1 /* Raleway-ExtraLight.ttf */,
+				ABFC44E71BF6C6A9003405B1 /* Raleway-Light.ttf */,
+				ABFC44E81BF6C6A9003405B1 /* Raleway-Regular.ttf */,
+				ABFC44E91BF6C6A9003405B1 /* Raleway-Thin.ttf */,
+				ABFC44E01BF6C68F003405B1 /* Roboto-Light.ttf */,
+				ABFC44E11BF6C68F003405B1 /* Roboto-Medium.ttf */,
+				ABFC44E21BF6C68F003405B1 /* Roboto-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ABFC44F61BF6E6AB003405B1 /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC44DA1BF6C609003405B1 /* GradientViewOne.swift */,
+				AB23EA951BFD37F5007BA99C /* GradientViewTwo.swift */,
+				AB23EA971BFD53ED007BA99C /* GradientViewThree.swift */,
+			);
+			name = Gradient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5540C91BF6C4FB00A9FF97 /* BREATHEv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5540DF1BF6C4FB00A9FF97 /* Build configuration list for PBXNativeTarget "BREATHEv2" */;
+			buildPhases = (
+				AB5540C61BF6C4FB00A9FF97 /* Sources */,
+				AB5540C71BF6C4FB00A9FF97 /* Frameworks */,
+				AB5540C81BF6C4FB00A9FF97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BREATHEv2;
+			productName = BREATHEv2;
+			productReference = AB5540CA1BF6C4FB00A9FF97 /* BREATHEv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5540C21BF6C4FB00A9FF97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = JPRODUCTION;
+				TargetAttributes = {
+					AB5540C91BF6C4FB00A9FF97 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = AB5540C51BF6C4FB00A9FF97 /* Build configuration list for PBXProject "BREATHEv2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5540C11BF6C4FB00A9FF97;
+			productRefGroup = AB5540CB1BF6C4FB00A9FF97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5540C91BF6C4FB00A9FF97 /* BREATHEv2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5540C81BF6C4FB00A9FF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFC44E41BF6C68F003405B1 /* Roboto-Medium.ttf in Resources */,
+				AB5540DB1BF6C4FB00A9FF97 /* LaunchScreen.storyboard in Resources */,
+				ABFC44E51BF6C68F003405B1 /* Roboto-Thin.ttf in Resources */,
+				AB5540D81BF6C4FB00A9FF97 /* Assets.xcassets in Resources */,
+				ABFC44EC1BF6C6A9003405B1 /* Raleway-Regular.ttf in Resources */,
+				ABFC44ED1BF6C6A9003405B1 /* Raleway-Thin.ttf in Resources */,
+				ABFC44E31BF6C68F003405B1 /* Roboto-Light.ttf in Resources */,
+				ABFC44EA1BF6C6A9003405B1 /* Raleway-ExtraLight.ttf in Resources */,
+				AB5540D31BF6C4FB00A9FF97 /* Main.storyboard in Resources */,
+				ABFC44EB1BF6C6A9003405B1 /* Raleway-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5540C61BF6C4FB00A9FF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFC44F31BF6D9E0003405B1 /* BreathingExercises.swift in Sources */,
+				AB5540D61BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld in Sources */,
+				AB5540D01BF6C4FB00A9FF97 /* ViewController.swift in Sources */,
+				AB23EA961BFD37F5007BA99C /* GradientViewTwo.swift in Sources */,
+				AB5540CE1BF6C4FB00A9FF97 /* AppDelegate.swift in Sources */,
+				ABFC44EF1BF6C932003405B1 /* BreatheCell.swift in Sources */,
+				AB23EABF1BFD7CCB007BA99C /* ExerciseViewController.swift in Sources */,
+				AB23EA981BFD53ED007BA99C /* GradientViewThree.swift in Sources */,
+				ABFC44DB1BF6C609003405B1 /* GradientViewOne.swift in Sources */,
+				ABFC44F51BF6DA06003405B1 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB5540D11BF6C4FB00A9FF97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5540D21BF6C4FB00A9FF97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB5540D91BF6C4FB00A9FF97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5540DA1BF6C4FB00A9FF97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5540DD1BF6C4FB00A9FF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB5540DE1BF6C4FB00A9FF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5540E01BF6C4FB00A9FF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BREATHEv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jordan-Olson.BREATHEv2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB5540E11BF6C4FB00A9FF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BREATHEv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jordan-Olson.BREATHEv2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5540C51BF6C4FB00A9FF97 /* Build configuration list for PBXProject "BREATHEv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5540DD1BF6C4FB00A9FF97 /* Debug */,
+				AB5540DE1BF6C4FB00A9FF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5540DF1BF6C4FB00A9FF97 /* Build configuration list for PBXNativeTarget "BREATHEv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5540E01BF6C4FB00A9FF97 /* Debug */,
+				AB5540E11BF6C4FB00A9FF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB5540D41BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB5540D51BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodel */,
+			);
+			currentVersion = AB5540D51BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodel */;
+			path = BREATHEv2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB5540C21BF6C4FB00A9FF97 /* Project object */;
+}
