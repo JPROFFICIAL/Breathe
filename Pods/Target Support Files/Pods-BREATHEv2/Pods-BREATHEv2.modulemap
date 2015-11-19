@@ -1,0 +1,6 @@
+framework module Pods_BREATHEv2 {
+  umbrella header "Pods-BREATHEv2-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -27,9 +27,12 @@
 		ABFC44EF1BF6C932003405B1 /* BreatheCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC44EE1BF6C932003405B1 /* BreatheCell.swift */; };
 		ABFC44F31BF6D9E0003405B1 /* BreathingExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC44F21BF6D9E0003405B1 /* BreathingExercises.swift */; };
 		ABFC44F51BF6DA06003405B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC44F41BF6DA06003405B1 /* DetailViewController.swift */; };
+		D554F22706D2F56E4F5D8B59 /* Pods_BREATHEv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7F352680473EFC01290C6B /* Pods_BREATHEv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D7F352680473EFC01290C6B /* Pods_BREATHEv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BREATHEv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A242921F59DB19922F655C4F /* Pods-BREATHEv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BREATHEv2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BREATHEv2/Pods-BREATHEv2.debug.xcconfig"; sourceTree = "<group>"; };
 		AB23EA951BFD37F5007BA99C /* GradientViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewTwo.swift; sourceTree = "<group>"; };
 		AB23EA971BFD53ED007BA99C /* GradientViewThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewThree.swift; sourceTree = "<group>"; };
 		AB23EABE1BFD7CCB007BA99C /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		ABFC44EE1BF6C932003405B1 /* BreatheCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreatheCell.swift; sourceTree = "<group>"; };
 		ABFC44F21BF6D9E0003405B1 /* BreathingExercises.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreathingExercises.swift; sourceTree = "<group>"; };
 		ABFC44F41BF6DA06003405B1 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AC6D6CFC33966160CEE3A235 /* Pods-BREATHEv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BREATHEv2.release.xcconfig"; path = "Pods/Target Support Files/Pods-BREATHEv2/Pods-BREATHEv2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D554F22706D2F56E4F5D8B59 /* Pods_BREATHEv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1768B65675467B28FB5574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D7F352680473EFC01290C6B /* Pods_BREATHEv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FC219FCEDA872F90CAF0D6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A242921F59DB19922F655C4F /* Pods-BREATHEv2.debug.xcconfig */,
+				AC6D6CFC33966160CEE3A235 /* Pods-BREATHEv2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB5540C11BF6C4FB00A9FF97 = {
 			isa = PBXGroup;
 			children = (
 				AB5540CC1BF6C4FB00A9FF97 /* BREATHEv2 */,
 				AB5540CB1BF6C4FB00A9FF97 /* Products */,
+				4FC219FCEDA872F90CAF0D6B /* Pods */,
+				0C1768B65675467B28FB5574 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB5540DF1BF6C4FB00A9FF97 /* Build configuration list for PBXNativeTarget "BREATHEv2" */;
 			buildPhases = (
+				2355D0E1CD46A11EFB06ED63 /* Check Pods Manifest.lock */,
 				AB5540C61BF6C4FB00A9FF97 /* Sources */,
 				AB5540C71BF6C4FB00A9FF97 /* Frameworks */,
 				AB5540C81BF6C4FB00A9FF97 /* Resources */,
+				D4C7DE06BF4F5BA90A42D2D7 /* Embed Pods Frameworks */,
+				AF82C79D96D34B538A046C5F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +248,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2355D0E1CD46A11EFB06ED63 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF82C79D96D34B538A046C5F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BREATHEv2/Pods-BREATHEv2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C7DE06BF4F5BA90A42D2D7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BREATHEv2/Pods-BREATHEv2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB5540C61BF6C4FB00A9FF97 /* Sources */ = {
@@ -347,6 +422,7 @@
 		};
 		AB5540E01BF6C4FB00A9FF97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A242921F59DB19922F655C4F /* Pods-BREATHEv2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BREATHEv2/Info.plist;
@@ -358,6 +434,7 @@
 		};
 		AB5540E11BF6C4FB00A9FF97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6D6CFC33966160CEE3A235 /* Pods-BREATHEv2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BREATHEv2/Info.plist;
