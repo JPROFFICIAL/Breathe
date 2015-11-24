@@ -1,6 +1,0 @@
-framework module BUCTimer {
-  umbrella header "BUCTimer-umbrella.h"
-
-  export *
-  module * { export * }
-}

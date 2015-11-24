@@ -10,12 +10,18 @@
 		AB23EA961BFD37F5007BA99C /* GradientViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23EA951BFD37F5007BA99C /* GradientViewTwo.swift */; };
 		AB23EA981BFD53ED007BA99C /* GradientViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23EA971BFD53ED007BA99C /* GradientViewThree.swift */; };
 		AB23EABF1BFD7CCB007BA99C /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23EABE1BFD7CCB007BA99C /* ExerciseViewController.swift */; };
+		AB3C030F1C0186A4006FF621 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3C030E1C0186A4006FF621 /* KDCircularProgress.swift */; };
 		AB5540CE1BF6C4FB00A9FF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5540CD1BF6C4FB00A9FF97 /* AppDelegate.swift */; };
 		AB5540D01BF6C4FB00A9FF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5540CF1BF6C4FB00A9FF97 /* ViewController.swift */; };
 		AB5540D31BF6C4FB00A9FF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5540D11BF6C4FB00A9FF97 /* Main.storyboard */; };
 		AB5540D61BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB5540D41BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld */; };
 		AB5540D81BF6C4FB00A9FF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5540D71BF6C4FB00A9FF97 /* Assets.xcassets */; };
 		AB5540DB1BF6C4FB00A9FF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5540D91BF6C4FB00A9FF97 /* LaunchScreen.storyboard */; };
+		ABAFDF001C0424A70074F875 /* bigSchool.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ABAFDEFF1C0424A70074F875 /* bigSchool.m4a */; };
+		ABAFDF021C0424BA0074F875 /* haveIForgotten.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ABAFDF011C0424BA0074F875 /* haveIForgotten.m4a */; };
+		ABAFDF041C0424C60074F875 /* dissolvingMemory.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ABAFDF031C0424C60074F875 /* dissolvingMemory.m4a */; };
+		ABAFDF061C04263B0074F875 /* bongoSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = ABAFDF051C04263B0074F875 /* bongoSound.aif */; };
+		ABAFDF081C0426420074F875 /* popSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = ABAFDF071C0426420074F875 /* popSound.aif */; };
 		ABFC44DB1BF6C609003405B1 /* GradientViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC44DA1BF6C609003405B1 /* GradientViewOne.swift */; };
 		ABFC44E31BF6C68F003405B1 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E01BF6C68F003405B1 /* Roboto-Light.ttf */; };
 		ABFC44E41BF6C68F003405B1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABFC44E11BF6C68F003405B1 /* Roboto-Medium.ttf */; };
@@ -36,6 +42,7 @@
 		AB23EA951BFD37F5007BA99C /* GradientViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewTwo.swift; sourceTree = "<group>"; };
 		AB23EA971BFD53ED007BA99C /* GradientViewThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewThree.swift; sourceTree = "<group>"; };
 		AB23EABE1BFD7CCB007BA99C /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		AB3C030E1C0186A4006FF621 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		AB5540CA1BF6C4FB00A9FF97 /* BREATHEv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BREATHEv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5540CD1BF6C4FB00A9FF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5540CF1BF6C4FB00A9FF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		AB5540D71BF6C4FB00A9FF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5540DA1BF6C4FB00A9FF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5540DC1BF6C4FB00A9FF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAFDEFF1C0424A70074F875 /* bigSchool.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigSchool.m4a; sourceTree = "<group>"; };
+		ABAFDF011C0424BA0074F875 /* haveIForgotten.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = haveIForgotten.m4a; sourceTree = "<group>"; };
+		ABAFDF031C0424C60074F875 /* dissolvingMemory.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dissolvingMemory.m4a; sourceTree = "<group>"; };
+		ABAFDF051C04263B0074F875 /* bongoSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = bongoSound.aif; sourceTree = "<group>"; };
+		ABAFDF071C0426420074F875 /* popSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = popSound.aif; sourceTree = "<group>"; };
 		ABFC44DA1BF6C609003405B1 /* GradientViewOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewOne.swift; sourceTree = "<group>"; };
 		ABFC44E01BF6C68F003405B1 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		ABFC44E11BF6C68F003405B1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -113,6 +125,7 @@
 				ABFC44DE1BF6C641003405B1 /* Controller */,
 				ABFC44DF1BF6C659003405B1 /* Resources */,
 				AB5540D71BF6C4FB00A9FF97 /* Assets.xcassets */,
+				AB3C030E1C0186A4006FF621 /* KDCircularProgress.swift */,
 				AB5540CD1BF6C4FB00A9FF97 /* AppDelegate.swift */,
 				AB5540DC1BF6C4FB00A9FF97 /* Info.plist */,
 				AB5540D41BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld */,
@@ -152,6 +165,11 @@
 		ABFC44DF1BF6C659003405B1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ABAFDF031C0424C60074F875 /* dissolvingMemory.m4a */,
+				ABAFDF011C0424BA0074F875 /* haveIForgotten.m4a */,
+				ABAFDF051C04263B0074F875 /* bongoSound.aif */,
+				ABAFDF071C0426420074F875 /* popSound.aif */,
+				ABAFDEFF1C0424A70074F875 /* bigSchool.m4a */,
 				ABFC44E61BF6C6A9003405B1 /* Raleway-ExtraLight.ttf */,
 				ABFC44E71BF6C6A9003405B1 /* Raleway-Light.ttf */,
 				ABFC44E81BF6C6A9003405B1 /* Raleway-Regular.ttf */,
@@ -235,15 +253,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABFC44E41BF6C68F003405B1 /* Roboto-Medium.ttf in Resources */,
+				ABAFDF021C0424BA0074F875 /* haveIForgotten.m4a in Resources */,
 				AB5540DB1BF6C4FB00A9FF97 /* LaunchScreen.storyboard in Resources */,
 				ABFC44E51BF6C68F003405B1 /* Roboto-Thin.ttf in Resources */,
 				AB5540D81BF6C4FB00A9FF97 /* Assets.xcassets in Resources */,
 				ABFC44EC1BF6C6A9003405B1 /* Raleway-Regular.ttf in Resources */,
 				ABFC44ED1BF6C6A9003405B1 /* Raleway-Thin.ttf in Resources */,
+				ABAFDF001C0424A70074F875 /* bigSchool.m4a in Resources */,
+				ABAFDF061C04263B0074F875 /* bongoSound.aif in Resources */,
 				ABFC44E31BF6C68F003405B1 /* Roboto-Light.ttf in Resources */,
 				ABFC44EA1BF6C6A9003405B1 /* Raleway-ExtraLight.ttf in Resources */,
+				ABAFDF041C0424C60074F875 /* dissolvingMemory.m4a in Resources */,
 				AB5540D31BF6C4FB00A9FF97 /* Main.storyboard in Resources */,
 				ABFC44EB1BF6C6A9003405B1 /* Raleway-Light.ttf in Resources */,
+				ABAFDF081C0426420074F875 /* popSound.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +329,7 @@
 				AB5540D61BF6C4FB00A9FF97 /* BREATHEv2.xcdatamodeld in Sources */,
 				AB5540D01BF6C4FB00A9FF97 /* ViewController.swift in Sources */,
 				AB23EA961BFD37F5007BA99C /* GradientViewTwo.swift in Sources */,
+				AB3C030F1C0186A4006FF621 /* KDCircularProgress.swift in Sources */,
 				AB5540CE1BF6C4FB00A9FF97 /* AppDelegate.swift in Sources */,
 				ABFC44EF1BF6C932003405B1 /* BreatheCell.swift in Sources */,
 				AB23EABF1BFD7CCB007BA99C /* ExerciseViewController.swift in Sources */,

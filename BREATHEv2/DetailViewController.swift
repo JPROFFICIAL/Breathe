@@ -20,15 +20,19 @@ class DetailViewController: UIViewController {
     @IBAction func goToExercise(sender: AnyObject) {
         
         
-        
+        performSegueWithIdentifier("ShowExerciseSelected", sender: exercises)
     }
     
     
     
     
-    @IBAction func goBackSwipe(sender: AnyObject) {
+    func goBackSwipe(recognizer: UIScreenEdgePanGestureRecognizer) {
+        if recognizer.state == .Recognized {
+            print("Screen edge swiped!")
         
+        audioSignal = true
         performSegueWithIdentifier("backToMain", sender: nil)
+        }
     }
     
     var exercises = BreathingExercises.init()
@@ -39,6 +43,12 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
 
         updateUI()
+        
+        let edgePan = UIScreenEdgePanGestureRecognizer(target: self, action: "goBackSwipe:")
+        edgePan.edges = .Left
+        
+        view.addGestureRecognizer(edgePan)
+    
         
     }
         

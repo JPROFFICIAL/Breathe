@@ -11,23 +11,41 @@ import UIKit
 import QuartzCore
 
 
-private var _detailColorOne: UIColor! = UIColor.init(red: 1, green: 213/255, blue: 79/255, alpha: 1)
-private var _detailColorTwo: UIColor! = UIColor.init(red: 1, green: 193/255, blue: 7/255, alpha: 1)
-private var _detailColorThree: UIColor! = UIColor.init(red: 1, green: 160/255, blue: 0, alpha: 1)
+private var _orangeColorOne: UIColor! = UIColor.init(red: 1, green: 213/255, blue: 79/255, alpha: 1)
+private var _orangeColorTwo: UIColor! = UIColor.init(red: 1, green: 193/255, blue: 7/255, alpha: 1)
+private var _orangeColorThree: UIColor! = UIColor.init(red: 1, green: 160/255, blue: 0, alpha: 1)
+private var _lightBlueColorOne: UIColor! = UIColor.init(red: 129/255, green: 212/255, blue: 250/255, alpha: 1)
+private var _lightBlueColorTwo: UIColor! = UIColor.init(red: 2/255, green: 136/255, blue: 209/255, alpha: 1)
+private var _lightBlueColorThree: UIColor! = UIColor.init(red: 1, green: 87/255, blue: 155/255, alpha: 0.5)
 
 
 
-var detailColorOne: UIColor {
-    return _detailColorOne
+
+
+var orangeColorOne: UIColor {
+    return _orangeColorOne
 }
 
-var detailColorTwo: UIColor {
-    return _detailColorTwo
+var orangeColorTwo: UIColor {
+    return _orangeColorTwo
 }
 
-var detailColorThree: UIColor {
-    return _detailColorThree
+var orangeColorThree: UIColor {
+    return _orangeColorThree
 }
+
+var lightBlueColorOne: UIColor {
+    return _lightBlueColorOne
+}
+
+var lightBlueColorTwo: UIColor {
+    return _lightBlueColorTwo
+}
+
+var lightBlueColorThree: UIColor {
+    return _lightBlueColorThree
+}
+
 
 
 //STOP WORKING ON IT IT LOOKS GREAT W THIS ANIMATION
@@ -42,7 +60,7 @@ var detailColorThree: UIColor {
             gradientOne.startPoint = CGPoint(x: 0.0, y: 0.0)
             gradientOne.endPoint = CGPoint(x: 1.0, y: 1.0)
             
-            let colors = [detailColorOne.CGColor, detailColorTwo.CGColor, detailColorThree.CGColor]
+            let colors = [orangeColorOne.CGColor, orangeColorTwo.CGColor, orangeColorThree.CGColor]
             gradientOne.colors = colors
             
             
@@ -72,5 +90,6 @@ var detailColorThree: UIColor {
         }
         
     }
+
 
 

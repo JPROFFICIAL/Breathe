@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BUCTimer.xcscheme</key>
+		<key>Pods-BREATHEv2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-BREATHEv2.xcscheme</key>
+		<key>RazzleDazzle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -21,6 +21,22 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>07E223BDDC8182CDD6CE7B7C64040CEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F2E29F0D73EF025FAD0DCFDA5927E81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE44BB69D1BD80C09C22DB287AEF5AE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

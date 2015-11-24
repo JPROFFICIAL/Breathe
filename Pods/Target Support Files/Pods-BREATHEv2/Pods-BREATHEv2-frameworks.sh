@@ -84,10 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-BREATHEv2/BUCTimer.framework"
+  install_framework "Pods-BREATHEv2/RazzleDazzle.framework"
   install_framework "Pods-BREATHEv2/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-BREATHEv2/BUCTimer.framework"
+  install_framework "Pods-BREATHEv2/RazzleDazzle.framework"
   install_framework "Pods-BREATHEv2/pop.framework"
 fi

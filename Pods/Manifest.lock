@@ -1,13 +1,13 @@
 PODS:
-  - BUCTimer (1.0.0)
   - pop (1.0.8)
+  - RazzleDazzle (0.1.1)
 
 DEPENDENCIES:
-  - BUCTimer (~> 1.0)
   - pop (~> 1.0)
+  - RazzleDazzle
 
 SPEC CHECKSUMS:
-  BUCTimer: af8c7082d649b8cfb5f2477302d7467dad53200f
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  RazzleDazzle: 022270e9ec0a4269ed40a6dcee42c8fa969cbc9a
 
 COCOAPODS: 0.39.0

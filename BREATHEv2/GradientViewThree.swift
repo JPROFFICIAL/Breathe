@@ -57,7 +57,7 @@ class GradientViewThree: UIView {
     override func didMoveToWindow() {
         layer.addSublayer(gradientLayer)
         let gradientAnimation = CABasicAnimation(keyPath: "locations")
-        gradientAnimation.duration = 6.0
+        gradientAnimation.duration = 10.0
         gradientAnimation.repeatCount = Float.infinity
         gradientAnimation.fromValue = [0.0, 0.75, 1.0]
         gradientAnimation.toValue = [0.0, 0.25, 0.5]
